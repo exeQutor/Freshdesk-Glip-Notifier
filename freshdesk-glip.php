@@ -19,8 +19,6 @@ $tickets = get_tickets();
 
 foreach ($tickets as $ticket)
 {
-	$body = '';
-	
 	if (strtotime($ticket->created_at) >= strtotime("-1 minute") && $ticket->status == 2)
 	{
 		// post notification to glip
