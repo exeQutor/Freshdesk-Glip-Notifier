@@ -5,4 +5,6 @@
 
 ### Cron Setup ###
 
-> * * * * * wget -O - http://burgosoft.com/tsd/support/freshdesk-glip.php >/dev/null 2>&1
+```
+* * * * * wget -O - http://burgosoft.com/tsd/support/freshdesk-glip.php >/dev/null 2>&1
+```
